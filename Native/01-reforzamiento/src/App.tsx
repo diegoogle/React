@@ -1,11 +1,22 @@
-import { TiposBasicos } from "./typescript/TiposBasicos";
+// import { TiposBasicos } from "./typescript/TiposBasicos";
+// import { ObjetosLiterales } from "./typescript/ObjetosLiterales";
+// import { Funciones } from "./typescript/Funciones";
+// import { Contador } from "./Components/Contador";
+// import { ContadorConHook } from "./Components/ContadorConHook";
+
+import { Login } from "./Components/Login";
 
 const App = () => {
   return (
     <div className='mt-2'>
       <h1>Introduccion a TypeScript</h1>
       <hr />
-      <TiposBasicos/>
+      {/* <TiposBasicos/> */}
+      {/* <ObjetosLiterales/> */}
+      {/* <Funciones/> */}
+      {/* <Contador/> */}
+      {/* <ContadorConHook/> */}
+      <Login/>
     </div>
     )
 }
